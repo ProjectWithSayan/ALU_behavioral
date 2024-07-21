@@ -2,7 +2,7 @@
 module alu_tb;
   reg [7:0] A,B; //inputs
   reg [2:0] op; //instructions/opcodes
-  wire [7:0] out; //outpus
+  wire [7:0] out; //outputs
   alu a1(A,B,out,op);
   
   integer i;
